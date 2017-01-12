@@ -1,0 +1,94 @@
+* {
+    font-family: 'Josefin Sans', sans-serif;
+}
+body {
+    background: black;
+}
+.header {
+    background-image: url("../images/universe-backgrounds-81.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+.header>div {
+    background: rgba(0,0,0,.6)
+}
+.headerLeft {
+    border: 1px solid #b9def0;
+    height:250px;
+    width: 250px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.headerLeft>img {
+    height: 60%;
+    display: block;
+    margin: auto;
+}
+.text-white {
+    color: white;
+}
+.row {
+    margin: 0;
+}
+.goal {
+    margin-top: 25px;
+    margin-left: 50px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid;
+}
+.contact {
+    margin-top: 25px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+.contact-me>div {
+    padding: 0;
+}
+.bottom-border {
+    border-bottom: 1px solid #337AB7;
+}
+section>div {
+    padding: 10px;
+    margin: 10px;
+}
+.experience>div:nth-child(3) {
+    border-left:30px solid transparent;
+    border-image:url(../images/border.png) 30 30 round;
+}
+.experience>div:nth-child(7) {
+    border-left:30px solid transparent;
+    border-image:url(../images/border.png) 30 30 round;
+}
+.experience>div:nth-child(11) {
+    border-left:30px solid transparent;
+    border-image:url(../images/border.png) 30 30 round;
+}
+.personal-qualities>div {
+    border-left:30px solid transparent;
+    border-image:url(../images/border.png) 30 30 round;
+}
+.skills>div {
+    border-left:30px solid transparent;
+    border-image:url(../images/border.png) 30 30 round;
+}
+.interests {
+    font-size: 0;
+}
+.interests>div {
+    font-size: initial;
+    width: 25%;
+    display: inline-block;
+}
+.interests>div>img {
+    width: 100%;
+}
+.languages {
+    font-size: 0;
+}
+.languages>div {
+    width: calc(100% / 3);
+    display: inline-block;
+}

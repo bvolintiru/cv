@@ -94,3 +94,9 @@ section>div {
     width: 100%;
     padding: 10px;
 }
+@media (max-width: 980px) {
+    .container {
+        margin: 0;
+        width: 100%;
+    }
+}

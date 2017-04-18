@@ -64,6 +64,10 @@ section>div {
     border-left:30px solid transparent;
     border-image:url(../images/border.png) 30 30 round;
 }
+.experience>div:nth-child(15) {
+    border-left:30px solid transparent;
+    border-image:url(../images/border.png) 30 30 round;
+}
 .personal-qualities>div {
     border-left:30px solid transparent;
     border-image:url(../images/border.png) 30 30 round;
